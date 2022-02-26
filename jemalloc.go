@@ -1,8 +1,9 @@
+//go:build !testing && jemalloc
 // +build !testing,jemalloc
 
 package grocksdb
 
-// #include "rocksdb/c.h"
+// #include <rocksdb/c.h>
 import "C"
 
 // CreateJemallocNodumpAllocator generates memory allocator which allocates through

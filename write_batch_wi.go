@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include "rocksdb/c.h"
+// #include <rocksdb/c.h>
 import "C"
 
 // WriteBatchWI is a batching with index of Puts, Merges and Deletes to implement read-your-own-write.

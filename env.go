@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include "rocksdb/c.h"
+// #include <rocksdb/c.h>
 import "C"
 
 // Env is a system call environment used by a database.

@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include "rocksdb/c.h"
+// #include <rocksdb/c.h>
 import "C"
 
 // FilterPolicy is a factory type that allows the RocksDB database to create a

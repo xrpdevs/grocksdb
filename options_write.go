@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include "rocksdb/c.h"
+// #include <rocksdb/c.h>
 import "C"
 
 // WriteOptions represent all of the available options when writing to a
