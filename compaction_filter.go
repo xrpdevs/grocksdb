@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include <rocksdb/c.h>
+// #include "c.h"
 import "C"
 
 // A CompactionFilter can be used to filter keys during compaction time.

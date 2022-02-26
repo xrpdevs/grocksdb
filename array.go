@@ -1,7 +1,7 @@
 package grocksdb
 
 // #include "stdlib.h"
-// #include <rocksdb/c.h>
+// #include "c.h"
 import "C"
 import (
 	"reflect"

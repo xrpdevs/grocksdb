@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include <rocksdb/c.h>
+// #include "c.h"
 import "C"
 
 // FlushOptions represent all of the available options when manual flushing the

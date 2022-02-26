@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include <rocksdb/c.h>
+// #include "c.h"
 import "C"
 
 // IngestExternalFileOptions represents available options when ingesting external files.

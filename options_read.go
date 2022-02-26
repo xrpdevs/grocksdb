@@ -1,6 +1,6 @@
 package grocksdb
 
-// #include <rocksdb/c.h>
+// #include "c.h"
 import "C"
 
 // ReadTier controls fetching of data during a read request.

@@ -3,7 +3,7 @@
 
 package grocksdb
 
-// #include <rocksdb/c.h>
+// #include "c.h"
 import "C"
 
 // CreateJemallocNodumpAllocator generates memory allocator which allocates through

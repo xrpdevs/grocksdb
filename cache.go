@@ -2,7 +2,7 @@ package grocksdb
 
 import "C"
 
-// #include <rocksdb/c.h>
+// #include "c.h"
 import "C"
 
 // Cache is a cache used to store data read from data in memory.
