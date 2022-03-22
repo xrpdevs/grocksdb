@@ -3,6 +3,8 @@ DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 INSTALL_PREFIX=$1
 
+echo "$INSTALL_PREFIX" >/tmp/grocks_install_prefix
+
 export CFLAGS='-fPIC -O2 -pipe' 
 export CXXFLAGS='-fPIC -O2 -pipe'
 

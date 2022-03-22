@@ -4,7 +4,7 @@ GOOS_GOARCH := $(GOOS)_$(GOARCH)
 GOOS_GOARCH_NATIVE := $(shell go env GOHOSTOS)_$(shell go env GOHOSTARCH)
 
 ROOT_DIR=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-DEST=$(ROOT_DIR)/dist/$(GOOS_GOARCH)
+DEST=$(ROOT_DIR)/dist/
 DEST_LIB=$(DEST)/lib
 DEST_INCLUDE=$(DEST)/include
 
